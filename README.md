@@ -24,7 +24,7 @@ This project was developed by Ken Nzuki.
 ## Technologies Used
 
 - HTML
-- CSS
+- CSS(tailwindcss)
 - JavaScript
 
 ## Contact Information
