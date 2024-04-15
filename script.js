@@ -22,5 +22,6 @@ dataForm.addEventListener('submit', (event) => {
         //if else stateement based on gender
         return gender === "male" ? maleNames[dayOfWeek] : femaleNames[dayOfWeek];
     }
-
+    //returning the result from the form to a paragraph
+    result.innerHTML = `Your Akan name is ${akanDate}`
 })
