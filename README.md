@@ -1,4 +1,4 @@
-# Akan day of week Calculator
+# Akan date predictor
 
 ## Project Description
 
