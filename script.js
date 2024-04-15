@@ -11,5 +11,11 @@ dataForm.addEventListener('submit', (event) => {
     let dateEntered = document.getElementById("date").value
     let gender = document.getElementById("gender").value
     //getting day of week from values
-    let day=dateEntered.getDay()
+    let day = dateEntered.getDay()
+    let akanDate = akanArray(day, gender)
+    
+    function akanArray(day, gender) { 
+        
+    }
+
 })
