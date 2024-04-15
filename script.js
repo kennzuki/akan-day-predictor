@@ -8,7 +8,7 @@ let result = document.getElementById("result")
 dataForm.addEventListener('submit', (event) => {
     event.preventDefault()
     //getting the form data values entered
-    let dateEntered = document.getElementById("date").value
+    let dateEntered =new Date(document.getElementById("date").value)
     let gender = document.getElementById("gender").value
     //getting day of week from values
     let day = dateEntered.getDay()
