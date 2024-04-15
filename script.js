@@ -17,8 +17,10 @@ dataForm.addEventListener('submit', (event) => {
     function akanArray(day, gender) { 
         // array taking each day with akan name for both male and females
         const maleNames = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
-        
+
         const femaleNames = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
+        //if else stateement based on gender
+        return gender === "male" ? maleNames[dayOfWeek] : femaleNames[dayOfWeek];
     }
 
 })
